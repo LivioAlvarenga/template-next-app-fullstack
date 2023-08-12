@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/react"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "no-useless-constructor": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.tsx"
+      ],
+      "excludedFiles": [
+        "page.tsx",
+        "layout.tsx",
+        "**/api/**/*"
+      ],
+      "plugins": [
+        "import"
+      ],
+      "rules": {
+        "import/no-default-export": "error"
+      }
+    }
+  ]
+}
