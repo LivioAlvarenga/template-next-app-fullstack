@@ -1,4 +1,4 @@
-import { inter400, inter700, playfair400 } from '@/styles/fonts'
+import { sans400, sans700, serif400 } from '@/styles/fonts'
 import '@/styles/globals.css'
 import { Metadata } from 'next'
 
@@ -117,7 +117,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${inter400.variable} ${inter700.variable} ${playfair400.variable} min-h-screen scroll-smooth bg-l-100 font-inter400 text-base font-normal leading-normal tracking-[.031rem] text-l-1000 selection:bg-primary selection:text-white`}
+        className={`${sans400.variable} ${sans700.variable} ${serif400.variable} font-inter400 min-h-screen scroll-smooth bg-l-100 text-base font-normal leading-normal tracking-[.031rem] text-l-1000 selection:bg-primary selection:text-white`}
       >
         {children}
       </body>

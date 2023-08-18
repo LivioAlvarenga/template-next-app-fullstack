@@ -1,24 +1,24 @@
 import { Inter, Playfair_Display as Playfair } from 'next/font/google'
 // import localFont from 'next/font/local'
 
-const inter400 = Inter({
+const sans400 = Inter({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-inter400',
+  variable: '--font-sans400',
   display: 'swap',
 })
 
-const inter700 = Inter({
+const sans700 = Inter({
   weight: '700',
   subsets: ['latin'],
-  variable: '--font-inter700',
+  variable: '--font-sans700',
   display: 'swap',
 })
 
-const playfair400 = Playfair({
+const serif400 = Playfair({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-playfair400',
+  variable: '--font-serif400',
   display: 'swap',
 })
 
@@ -31,4 +31,5 @@ const playfair400 = Playfair({
 // })
 // Don't forget to export localFont below
 
-export { inter400, inter700, playfair400 }
+export { sans400, sans700, serif400 }
+

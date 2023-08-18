@@ -1,8 +1,14 @@
+import { Heading } from '@/styles/theme/components/Heading'
+import { Wrapper } from '@/styles/theme/components/Wrapper'
 
 export default function Home() {
   return (
-    <main className="wrapper text-4xl font-playfair400">
-     <h1 className="">Template FULLSTACK com Nextjs 13 App Router</h1>
+    <main>
+      <Wrapper>
+        <Heading as="h1" size="3xl" className="text-center font-serif400">
+          Template FULLSTACK com Nextjs 13 App Router
+        </Heading>
+      </Wrapper>
     </main>
   )
 }

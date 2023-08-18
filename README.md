@@ -48,10 +48,10 @@
 
 ## 📺 Vitrine Dev
 
-| :placard: Vitrine.Dev |                                                                                                                                                                        |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :sparkles: Nome       | **Template FULLSTACK com Nextjs 13 App Router.** |
-| :label: Tecnologias   | NodeJs, TypeScript, JavaScript, Typescript, Nextjs, React, React Hook Form, Tailwind, ZodJs, Axios, Docker, Prisma, MySql, Vitest, EsLint, prettier.                   |
+| :placard: Vitrine.Dev |                                                                                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :sparkles: Nome       | **Template FULLSTACK com Nextjs 13 App Router.**                                                                                                     |
+| :label: Tecnologias   | NodeJs, TypeScript, JavaScript, Typescript, Nextjs, React, React Hook Form, Tailwind, ZodJs, Axios, Docker, Prisma, MySql, Vitest, EsLint, prettier. |
 
 ---
 
@@ -332,8 +332,6 @@ export default defineConfig({
 
 > Foram criados ?? testes...
 
-
-
 &nbsp;
 
 ### **Acessibilidade** architecture
@@ -354,6 +352,8 @@ npm ...
 npm install zod # Install zod to use types in NodeJs and validate data
 npm install zod-validation-errors # Install zod-validation-errors to use custom errors in zod
 npm install axios # Install axios to make http requests
+npm install -D tailwind-variants # Install tailwind-variants to use variants in TailwindCSS
+npm install -D tailwind-merge # Install tailwind-merge to use merge in TailwindCSS
 ```
 
 ---
